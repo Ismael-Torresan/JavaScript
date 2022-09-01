@@ -43,4 +43,10 @@ if(birthYear <= 2000){
     century = 21;
 }
 console.log('mamamia',century, 'century')
-// 2:51
+
+console.log('I am ' + 23 + ' years old')
+console.log('23' - '10' - 3)
+console.log('23' / '2')
+
+const favourite = prompt('What is your favourite number?')
+console.log(favourite)
