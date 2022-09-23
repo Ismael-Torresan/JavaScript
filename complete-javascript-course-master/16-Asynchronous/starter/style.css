@@ -22,17 +22,19 @@ body {
 
 .container {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .countries {
   /* margin-bottom: 8rem; */
   display: flex;
-
+  flex-wrap: wrap;
   font-size: 2rem;
   opacity: 0;
   transition: opacity 1s;
+  row-gap: 20px;
 }
 
 .country {
